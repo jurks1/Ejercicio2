@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Básica con Barra de Navegación</title>
+    <style>
+        /* Estilos para la barra de navegación */
+        .navbar {
+            background-color: #333;
+            padding: 10px;
+            width: 100%;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .navbar li {
+            margin: 0 15px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            padding: 5px 10px;
+        }
+        .navbar a:hover {
+            background-color: #555;
+        }
+        
+        /* Estilos para las secciones */
+        section {
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Secciones de contenido -->
+    <section>
+        <h2>Inicio</h2>
+        <p>Bienvenido a nuestra página. Aquí encontrarás toda la información que necesitas sobre nuestros servicios y actividades.</p>
+    </section>
+
+    <section>
+        <h2>Servicios</h2>
+        <p>Ofrecemos una variedad de servicios diseñados para satisfacer tus necesidades. Conócenos y descubre lo que podemos hacer por ti.</p>
+    </section>
+
+    <section>
+        <h2>Contacto</h2>
+        <p>Puedes comunicarte con nosotros a través de nuestro correo electrónico o teléfono. ¡Estamos aquí para ayudarte!</p>
+    </section>
+</body>
+</html>
